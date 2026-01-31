@@ -2,21 +2,37 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Smart Attendance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { font-family: sans-serif; padding: 40px; background: #f4f6f9; }
-        .card { background: white; padding: 20px; border-left: 5px solid #6c5ce7; margin-bottom: 10px; border-radius: 5px; cursor: pointer; }
-        a { text-decoration: none; color: black; }
+        body { font-family: 'Segoe UI', sans-serif; padding: 20px; background: #f4f6f9; margin: 0; }
+        h1 { font-size: 1.5rem; text-align: center; color: #2d3436; }
+
+        /* Responsive Grid: 1 column on mobile, more on PC */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            padding: 10px;
+        }
+
+        .card {
+            background: white; padding: 20px; border-left: 6px solid #6c5ce7;
+            border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        a { text-decoration: none; color: inherit; }
     </style>
 </head>
 <body>
-<h1>🏫 Department Dashboard</h1>
-<div th:each="entry : ${classes}">
-    <a th:href="@{'/dashboard/' + ${entry.key}}">
-        <div class="card">
-            <h2 th:text="${entry.key}">CSE-A</h2>
-            <span th:text="'⏳ Current Subject: ' + ${entry.value}">Subject</span>
-        </div>
-    </a>
+<h1>🏫 Dept Dashboard</h1>
+<div class="grid">
+    <div th:each="entry : ${classes}">
+        <a th:href="@{'/dashboard/' + ${entry.key}}">
+            <div class="card">
+                <h2 th:text="${entry.key}" style="margin:0;">CSE-A</h2>
+                <p th:text="'⏳ ' + ${entry.value}" style="color: #636e72; margin-top:5px;"></p>
+            </div>
+        </a>
+    </div>
 </div>
 </body>
 </html>

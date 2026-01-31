@@ -2,30 +2,48 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Live Class</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="5">
     <style>
-        body { font-family: sans-serif; padding: 20px; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { padding: 10px; border-bottom: 1px solid #eee; text-align: left; }
-        .PRESENT { color: green; font-weight: bold; }
-        .ABSENT { color: red; }
+        body { font-family: sans-serif; padding: 15px; margin: 0; }
+
+        /* Header Stats */
+        .header { background: #dfe6e9; padding: 15px; border-radius: 10px; margin-bottom: 20px; }
+        .stat-box { font-size: 1.2rem; font-weight: bold; color: #2d3436; }
+
+        /* Responsive Table Wrapper */
+        .table-container { overflow-x: auto; } /* Allows scroll on mobile */
+
+        table { width: 100%; border-collapse: collapse; min-width: 400px; } /* Ensures table doesn't squish */
+        th, td { padding: 12px 8px; border-bottom: 1px solid #eee; text-align: left; font-size: 0.9rem; }
+        th { background: #2d3436; color: white; }
+
+        .PRESENT { color: #00b894; font-weight: bold; }
+        .ABSENT { color: #d63031; }
+        .back-btn { display: inline-block; margin-top: 20px; padding: 10px 20px; background: #6c5ce7; color: white; text-decoration: none; border-radius: 5px; }
     </style>
 </head>
 <body>
-<h1 th:text="${className} + ' - Live Tracking'">Class Name</h1>
-<h3 th:text="'Current Subject: ' + ${subject}">Subject</h3>
-<p>Present: <span th:text="${presentCount}">0</span> / <span th:text="${totalCount}">0</span></p>
+<div class="header">
+    <h2 th:text="${className}" style="margin:0;">Class</h2>
+    <div th:text="${subject}" style="color: #636e72; font-size: 0.9em;">Subject</div>
+    <div class="stat-box" style="margin-top: 10px;">
+        ✅ Present: <span th:text="${presentCount}">0</span> / <span th:text="${totalCount}">0</span>
+    </div>
+</div>
 
-<table>
-    <tr><th>ID</th><th>Name</th><th>Status</th><th>Location</th><th>Time</th></tr>
-    <tr th:each="row : ${rows}">
-        <td th:text="${row.id}">101</td>
-        <td th:text="${row.name}">Barath</td>
-        <td th:text="${row.status}" th:class="${row.status.split(' ')[0]}">PRESENT</td>
-        <td th:text="${row.location}">Classroom</td>
-        <td th:text="${row.time}">10:30</td>
-    </tr>
-</table>
-<a href="/">Back</a>
+<div class="table-container">
+    <table>
+        <tr><th>Roll</th><th>Name</th><th>Status</th><th>Time</th></tr>
+        <tr th:each="row : ${rows}">
+            <td th:text="${row.id}">101</td>
+            <td th:text="${row.name}">Name</td>
+            <td th:text="${row.status}" th:class="${row.status.split(' ')[0]}">Status</td>
+            <td th:text="${row.time}">Time</td>
+        </tr>
+    </table>
+</div>
+
+<a href="/" class="back-btn">← Back</a>
 </body>
 </html>
