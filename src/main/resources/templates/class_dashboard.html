@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Live Class</title>
+    <meta http-equiv="refresh" content="5">
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; border-bottom: 1px solid #eee; text-align: left; }
+        .PRESENT { color: green; font-weight: bold; }
+        .ABSENT { color: red; }
+    </style>
+</head>
+<body>
+<h1 th:text="${className} + ' - Live Tracking'">Class Name</h1>
+<h3 th:text="'Current Subject: ' + ${subject}">Subject</h3>
+<p>Present: <span th:text="${presentCount}">0</span> / <span th:text="${totalCount}">0</span></p>
+
+<table>
+    <tr><th>ID</th><th>Name</th><th>Status</th><th>Location</th><th>Time</th></tr>
+    <tr th:each="row : ${rows}">
+        <td th:text="${row.id}">101</td>
+        <td th:text="${row.name}">Barath</td>
+        <td th:text="${row.status}" th:class="${row.status.split(' ')[0]}">PRESENT</td>
+        <td th:text="${row.location}">Classroom</td>
+        <td th:text="${row.time}">10:30</td>
+    </tr>
+</table>
+<a href="/">Back</a>
+</body>
+</html>

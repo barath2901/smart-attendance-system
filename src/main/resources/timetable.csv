@@ -1,0 +1,133 @@
+Class,Day,Start_Time,End_Time,Subject
+CSE-A,Monday,9:10,10:00,CCW332 - Digital Marketing
+CSE-A,Monday,10:00,10:50,CCS365 - Software Defined Networks
+CSE-A,Monday,10:50,11:05,BREAK - Tea Break
+CSE-A,Monday,11:05,11:55,CCS345 - Ethics and AI
+CSE-A,Monday,11:55,12:45,CCS345 - Ethics and AI
+CSE-A,Monday,12:45,13:30,BREAK - Lunch Break
+CSE-A,Monday,13:30,14:15,OCE351 - Env. Impact Assessment
+CSE-A,Monday,14:15,15:00,CS3691 - Embedded Systems
+CSE-A,Monday,15:00,15:10,BREAK - Tea Break
+CSE-A,Monday,15:10,15:55,CCS356 - OOSE
+CSE-A,Monday,15:55,16:40,LIB - Library
+CSE-A,Tuesday,9:10,10:00,CCS345 - Ethics and AI
+CSE-A,Tuesday,10:00,10:50,CCS354
+CSE-A,Tuesday,10:50,11:05,BREAK - Tea Break
+CSE-A,Tuesday,11:05,11:55,CCS365 - Software Defined Networks
+CSE-A,Tuesday,11:55,12:45,CS3691 - Embedded Systems
+CSE-A,Tuesday,12:45,13:30,BREAK - Lunch Break
+CSE-A,Tuesday,13:30,14:15,CCS354
+CSE-A,Tuesday,14:15,15:00,CCS354
+CSE-A,Tuesday,15:00,15:10,BREAK - Tea Break
+CSE-A,Tuesday,15:10,15:55,CCS356 - OOSE
+CSE-A,Tuesday,15:55,16:40,CS
+CSE-A,Wednesday,9:10,10:00,CCS365 - Software Defined Networks
+CSE-A,Wednesday,10:00,10:50,OCE351 - Env. Impact Assessment
+CSE-A,Wednesday,10:50,11:05,BREAK - Tea Break
+CSE-A,Wednesday,11:05,11:55,APP
+CSE-A,Wednesday,11:55,12:45,CCS345 - Ethics and AI
+CSE-A,Wednesday,12:45,13:30,BREAK - Lunch Break
+CSE-A,Wednesday,13:30,14:15,CCS356 - OOSE
+CSE-A,Wednesday,14:15,15:00,CCS356 - OOSE
+CSE-A,Wednesday,15:00,15:10,BREAK - Tea Break
+CSE-A,Wednesday,15:10,15:55,CS3691 - Embedded Systems
+CSE-A,Wednesday,15:55,16:40,CS3691 - Embedded Systems
+CSE-A,Thursday,9:10,10:00,OCE351 - Env. Impact Assessment
+CSE-A,Thursday,10:00,10:50,CCS354
+CSE-A,Thursday,10:50,11:05,BREAK - Tea Break
+CSE-A,Thursday,11:05,11:55,CCS345 - Ethics and AI
+CSE-A,Thursday,11:55,12:45,APP
+CSE-A,Thursday,12:45,13:30,BREAK - Lunch Break
+CSE-A,Thursday,13:30,14:15,CCS354
+CSE-A,Thursday,14:15,15:00,CCS356 - OOSE
+CSE-A,Thursday,15:00,15:10,BREAK - Tea Break
+CSE-A,Thursday,15:10,15:55,CCW332 - Digital Marketing
+CSE-A,Thursday,15:55,16:40,CCW332 - Digital Marketing
+CSE-A,Friday,9:10,10:00,CCS356 - OOSE
+CSE-A,Friday,10:00,10:50,CS3691 - Embedded Systems
+CSE-A,Friday,10:50,11:05,BREAK - Tea Break
+CSE-A,Friday,11:05,11:55,CCS365 - SDN Laboratory
+CSE-A,Friday,11:55,12:45,CCS365 - SDN Laboratory
+CSE-A,Friday,12:45,13:30,BREAK - Lunch Break
+CSE-A,Friday,13:30,14:15,ASS - Association
+CSE-A,Friday,14:15,15:00,OCE351 - Env. Impact Assessment
+CSE-A,Friday,15:00,15:10,BREAK - Tea Break
+CSE-A,Friday,15:10,15:55,CCW332 - Digital Marketing
+CSE-A,Friday,15:55,16:40,MX3089 - Industrial Safety
+CSE-A,Saturday,9:10,10:00,CS3691 - Embedded Systems
+CSE-A,Saturday,10:00,10:50,CCW332 - Digital Marketing
+CSE-A,Saturday,10:50,11:05,BREAK - Tea Break
+CSE-A,Saturday,11:05,11:55,OCE351 - Env. Impact Assessment
+CSE-A,Saturday,11:55,12:45,CCS345 - Ethics and AI
+CSE-A,Saturday,12:45,13:30,BREAK - Lunch Break
+CSE-A,Saturday,13:30,14:15,CS
+CSE-A,Saturday,14:15,15:00,CCW332 - Digital Marketing
+CSE-A,Saturday,15:00,15:10,BREAK - Tea Break
+CSE-A,Saturday,15:10,15:55,CCS365 - Software Defined Networks
+CSE-A,Saturday,15:55,16:40,COUN
+CSE-B,Monday,9:10,10:00,CCW332 - Digital Marketing
+CSE-B,Monday,10:00,10:50,CCS365 - Software Defined Networks
+CSE-B,Monday,10:50,11:05,BREAK - Tea Break
+CSE-B,Monday,11:05,11:55,CCS345 - Ethics and AI
+CSE-B,Monday,11:55,12:45,CCS345 - Ethics and AI
+CSE-B,Monday,12:45,13:30,BREAK - Lunch Break
+CSE-B,Monday,13:30,14:15,OCE351 - Env. Impact Assessment
+CSE-B,Monday,14:15,15:00,CS3691 - Embedded Systems
+CSE-B,Monday,15:00,15:10,BREAK - Tea Break
+CSE-B,Monday,15:10,15:55,CCS356 - OOSE
+CSE-B,Monday,15:55,16:40,LIB - Library
+CSE-B,Tuesday,9:10,10:00,CCS345 - Ethics and AI
+CSE-B,Tuesday,10:00,10:50,CCS354
+CSE-B,Tuesday,10:50,11:05,BREAK - Tea Break
+CSE-B,Tuesday,11:05,11:55,CCS365 - Software Defined Networks
+CSE-B,Tuesday,11:55,12:45,CS3691 - Embedded Systems
+CSE-B,Tuesday,12:45,13:30,BREAK - Lunch Break
+CSE-B,Tuesday,13:30,14:15,CCS354
+CSE-B,Tuesday,14:15,15:00,CCS354
+CSE-B,Tuesday,15:00,15:10,BREAK - Tea Break
+CSE-B,Tuesday,15:10,15:55,CCS356 - OOSE
+CSE-B,Tuesday,15:55,16:40,CS
+CSE-B,Wednesday,9:10,10:00,CCS365 - Software Defined Networks
+CSE-B,Wednesday,10:00,10:50,OCE351 - Env. Impact Assessment
+CSE-B,Wednesday,10:50,11:05,BREAK - Tea Break
+CSE-B,Wednesday,11:05,11:55,APP
+CSE-B,Wednesday,11:55,12:45,CCS345 - Ethics and AI
+CSE-B,Wednesday,12:45,13:30,BREAK - Lunch Break
+CSE-B,Wednesday,13:30,14:15,CCS356 - OOSE
+CSE-B,Wednesday,14:15,15:00,CCS356 - OOSE
+CSE-B,Wednesday,15:00,15:10,BREAK - Tea Break
+CSE-B,Wednesday,15:10,15:55,CS3691 - Embedded Systems
+CSE-B,Wednesday,15:55,16:40,CS3691 - Embedded Systems
+CSE-B,Thursday,9:10,10:00,OCE351 - Env. Impact Assessment
+CSE-B,Thursday,10:00,10:50,CCS354
+CSE-B,Thursday,10:50,11:05,BREAK - Tea Break
+CSE-B,Thursday,11:05,11:55,CCS345 - Ethics and AI
+CSE-B,Thursday,11:55,12:45,APP
+CSE-B,Thursday,12:45,13:30,BREAK - Lunch Break
+CSE-B,Thursday,13:30,14:15,CCS354
+CSE-B,Thursday,14:15,15:00,CCS356 - OOSE
+CSE-B,Thursday,15:00,15:10,BREAK - Tea Break
+CSE-B,Thursday,15:10,15:55,CCW332 - Digital Marketing
+CSE-B,Thursday,15:55,16:40,CCW332 - Digital Marketing
+CSE-B,Friday,9:10,10:00,CCS356 - OOSE
+CSE-B,Friday,10:00,10:50,CS3691 - Embedded Systems
+CSE-B,Friday,10:50,11:05,BREAK - Tea Break
+CSE-B,Friday,11:05,11:55,CCS365 - SDN Laboratory
+CSE-B,Friday,11:55,12:45,CCS365 - SDN Laboratory
+CSE-B,Friday,12:45,13:30,BREAK - Lunch Break
+CSE-B,Friday,13:30,14:15,ASS - Association
+CSE-B,Friday,14:15,15:00,OCE351 - Env. Impact Assessment
+CSE-B,Friday,15:00,15:10,BREAK - Tea Break
+CSE-B,Friday,15:10,15:55,CCW332 - Digital Marketing
+CSE-B,Friday,15:55,16:40,MX3089 - Industrial Safety
+CSE-B,Saturday,9:10,10:00,CS3691 - Embedded Systems
+CSE-B,Saturday,10:00,10:50,CCW332 - Digital Marketing
+CSE-B,Saturday,10:50,11:05,BREAK - Tea Break
+CSE-B,Saturday,11:05,11:55,OCE351 - Env. Impact Assessment
+CSE-B,Saturday,11:55,12:45,CCS345 - Ethics and AI
+CSE-B,Saturday,12:45,13:30,BREAK - Lunch Break
+CSE-B,Saturday,13:30,14:15,CS
+CSE-B,Saturday,14:15,15:00,CCW332 - Digital Marketing
+CSE-B,Saturday,15:00,15:10,BREAK - Tea Break
+CSE-B,Saturday,15:10,15:55,CCS365 - Software Defined Networks
+CSE-B,Saturday,15:55,16:40,COUN
